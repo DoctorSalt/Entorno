@@ -9,7 +9,7 @@ import java.awt.TextArea;
 
 public class Vista extends Frame {
 
-
+ 
 	private static final long serialVersionUID = 1L;
 
 	TextArea texto = new TextArea();

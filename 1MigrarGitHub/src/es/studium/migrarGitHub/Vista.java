@@ -13,14 +13,14 @@ public class Vista extends Frame {
 	private static final long serialVersionUID = 1L;
 
 	TextArea texto = new TextArea();
-	Label etiqueta = new Label("Etiqueta");
-	Button boton = new Button("Botón");
+	Label etiqueta = new Label("Contar Palabras");
+	Button boton = new Button("Dale");
 	
 	Panel panel1 = new Panel();
 	Panel panel2 = new Panel();
 	
 	Vista(){
-	setTitle("Soy algo");
+	setTitle("Contar Palabras");
 	setSize(300,300);
 	setLocationRelativeTo(null);
 	setLayout(new GridLayout(2,1));

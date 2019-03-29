@@ -20,7 +20,7 @@ public class Controlador implements WindowListener, ActionListener{
 	public void actionPerformed(ActionEvent evento) {
 		if(Vista.boton.equals(evento.getSource())) {
 			String escrito = Vista.texto.getText();
-			Modelo.Escribir(escrito);
+			Modelo.ContarPalabras(escrito);
 		}		
 	}
 

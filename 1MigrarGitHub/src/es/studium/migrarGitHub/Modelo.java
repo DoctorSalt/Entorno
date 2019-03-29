@@ -1,8 +1,8 @@
 package es.studium.migrarGitHub;
 
 public class Modelo {
-	public void Escribir(String escrito){
-		System.out.println(escrito);
+	public void ContarPalabras(String escrito) {
+		System.out.println(escrito.split("\\s+|\n").length);
 	}
 }
  
